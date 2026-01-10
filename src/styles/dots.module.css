@@ -1,0 +1,15 @@
+
+.dots {
+    width: 10px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    animation: l5 1s infinite linear alternate;
+  }
+  
+  @keyframes l5 {
+    0%  { box-shadow: 20px 0 #808080, -20px 0 #d3d3d3; background: #808080; }
+    33% { box-shadow: 20px 0 #808080, -20px 0 #d3d3d3; background: #d3d3d3; }
+    66% { box-shadow: 20px 0 #d3d3d3, -20px 0 #808080; background: #d3d3d3; }
+    100% { box-shadow: 20px 0 #d3d3d3, -20px 0 #808080; background: #808080; }
+}
+  

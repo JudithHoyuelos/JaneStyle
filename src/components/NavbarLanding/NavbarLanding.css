@@ -1,0 +1,20 @@
+.bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+.inicio {
+    top: 9.8%;
+}
+
+.hamburger-btn {
+    position: fixed;
+    right: 5%;
+}
+
+.logol {
+    margin-right: 1.2rem;
+    width: 25rem;
+}

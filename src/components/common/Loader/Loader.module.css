@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  z-index:10000;
+  background-color: #f0f0f0;
+  text-align: center;
+  position: relative;
+}
+
+.logoContainer {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin-left: 100px;
+}
+
+.logoWhite {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logoColor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+  animation: waveReveal 3s ease-in-out infinite;
+}
+
+/* Animación continua */
+@keyframes waveReveal {
+  0% {
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+  }
+  50% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  100% {
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+  }
+}

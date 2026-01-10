@@ -1,0 +1,3 @@
+.input-rounded {
+    @apply w-full p-2 lg:p-3 break-all border-2 bg-white border-gray-400 rounded-full focus:border-2 focus:border-foundation-3 focus:outline-none box-border;
+  }

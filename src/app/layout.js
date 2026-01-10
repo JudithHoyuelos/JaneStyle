@@ -1,0 +1,22 @@
+import "./globals.css";
+import GlobalProviders from "@/contexts/GlobalProviders";
+
+export const metadata = {
+  title: "JaneStyle",
+  description: "JaneStyle",
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <head>
+        <link rel="icon" href="img/logos/favicon.png" />
+      </head>
+      <body className={`antialiased`}>
+        <GlobalProviders>
+          {children}
+        </GlobalProviders>
+      </body>
+    </html>
+  );
+}

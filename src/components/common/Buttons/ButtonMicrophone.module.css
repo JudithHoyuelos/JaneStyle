@@ -1,0 +1,47 @@
+
+  .mic {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #7B1AD8;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+  
+  .mic::before {
+    content: "";
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background-color: inherit;
+    z-index: -1;
+  }
+  
+  .listening {
+    background-color: #E50085;
+  }
+  .listening::before {
+    animation: listening 1s infinite;
+  }
+  
+  @keyframes listening {
+    from {
+      opacity: 0.25;
+    }
+    to {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .mic {
+      width: 32px;
+      height: 32px;
+    }
+  }

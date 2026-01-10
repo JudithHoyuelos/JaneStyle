@@ -1,0 +1,120 @@
+.texto-externo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.cerrar-boton {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.titulo-cubo {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.descripcion-cubo {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+.extra-info {
+  font-size: 0.9em;
+  color: #ddd;
+}
+
+/*******************************TEXTO EXPLORAR**************************************/
+
+.explore-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+
+}
+
+.explore-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+
+}
+
+
+/*******************************TEXTO ESCENAS**************************************/
+.animated-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 50px;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.animated-text.visible {
+  opacity: 1;
+}
+
+.animated-text.hidden {
+  opacity: 0;
+}
+
+.animated-text h1 {
+  font-size: 3em;
+}
+
+/*******************************BARRA DE PROGRESO**************************************/
+.progress-container {
+  width: 300px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.1);
+}

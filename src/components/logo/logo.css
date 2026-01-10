@@ -1,0 +1,30 @@
+.logo {
+    margin-top: -5rem;
+    max-width: none;
+}
+
+@media (max-width: 400px) {
+    .logo {
+        width: 2rem;
+        padding: 0
+    }
+
+    .contenedor-logon {
+        bottom: 87%;
+        /* left: 300px; Ajustar según tus necesidades */
+        width: 40%;
+        left: 43%
+        /* padding:0px; */
+    }
+}
+
+@media (min-width: 410px) {
+    .logo {
+        width: 3rem
+    }
+
+    .contenedor-logon {
+        left: 50%;
+        bottom: 87%;
+    }
+}

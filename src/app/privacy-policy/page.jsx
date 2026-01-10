@@ -1,0 +1,528 @@
+import React from "react";
+
+export default function PrivacyPolicy() {
+  return (
+    <div className="m-7">
+      <div className="logo max-w-screen-sm">
+        <img
+          src="/img/logos/Alv_ColorPNG.png"
+          alt="Logo"
+          className="logo w-full h-full"
+          style={{ filter: "invert(100%)" }}
+        />
+      </div>
+      <div className="prose">
+        <h1>Política de Privacidad</h1>
+        <h2>1.- ¿Cuál es el objetivo de la presente Política de Privacidad?</h2>
+        <p>
+          El objetivo de la presente Política de Privacidad es ayudarle a
+          comprender el tratamiento de sus datos personales e información que se
+          recopilan en el sitio web («la Página») de ALVEARIUM VR. S.L.
+          («ALVEARIUM»). Al registrarse como usuario y utilizar la Página, sea
+          vía sitio web o mediante la aplicación de telefonía móvil de
+          Alvearium, usted acepta que ALVEARIUM pueda recopilar, usar, divulgar
+          y procesar sus datos personales e información en los términos
+          descritos en esta Política de Privacidad. Esta Política de Privacidad
+          únicamente resulta de aplicación a la Página y a las herramientas y
+          utilidades que le son propias. No se aplicará a otros sitios web,
+          productos o servicios de terceros a los que se pueda acceder o
+          vincularse a través de la Página. Por ejemplo, algunos proveedores
+          externos pueden colocar cookies o archivos de datos en su navegador o
+          dispositivo. La Política de Privacidad de ALVEARIUM no abarca el uso
+          de cookies o archivos de datos de terceros. La Página puede
+          evolucionar con el tiempo y esta Política de Privacidad cambiará para
+          reflejar esa evolución. Si se realizan modificaciones, se le
+          notificarán. En cualquier caso, le recomendamos que revise la Política
+          de Privacidad periódicamente para mantenerse informado.
+        </p>
+        <h2>
+          2.- ¿Quién es el titular del sitio web de ALVEARIUM y responsable del
+          tratamiento de datos?
+        </h2>
+        <p>
+          El titular de la Página es ALVEARIUM VR. S.L. («ALVEARIUM»), con
+          C.I.F. número B09678129, con domicilio a esos efectos en la Calle
+          Uribitarte, 6, 48001 Bilbao, España. Los derechos de propiedad
+          intelectual e industrial, derechos de explotación y reproducción de
+          este sitio web (páginas, pantallas, información, apariencia,
+          estructura y diseño, código fuente, archivos de audio y software, así
+          como los vínculos) que se establezcan desde ella a otras páginas web
+          de cualquier sociedad perteneciente a ALVEARIUM, son propiedad, han
+          sido cedidos o son objeto de licencia, a favor de ALVEARIUM, salvo que
+          se especifique otra cosa. La denominación, el diseño y los logotipos
+          que componen este sitio web son marcas debidamente registradas. Su uso
+          indebido podrá ser perseguido de conformidad con la legislación
+          vigente. Los derechos de propiedad intelectual y marcas de terceros
+          están destacados y el usuario debe respetarlos, en cualquier caso.{" "}
+        </p>
+        <h2>
+          3.- ¿De acuerdo con qué norma se regula la recopilación,
+          almacenamiento y el tratamiento de datos?
+        </h2>
+        <p>
+          La presente Política de Privacidad ha sido redactada de acuerdo con
+          (i) el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo,
+          de 27 de abril de 2016, relativo a la protección de las personas
+          físicas en lo que respecta al tratamiento de datos personales y a la
+          libre circulación de estos datos y por el que se deroga la Directiva
+          95/46/CE (en adelante, «RGPD»); (ii) la Ley Orgánica 3/2018, de 5 de
+          diciembre, de Protección de Datos Personales y garantía de los
+          derechos digitales; y (iii) el Reglamento de desarrollo de la Ley
+          Orgánica 15/1999, de 13 de diciembre, de protección de datos de
+          carácter personal, aprobado por el Real Decreto 1720/2007, de 21 de
+          diciembre. En cumplimiento de lo dispuesto por el RGPD, ALVEARIUM como
+          responsable de la Página, informa a todos los usuarios que faciliten o
+          vayan a facilitar sus datos personales e información en la Página, que
+          sus datos personales e información serán objeto de recopilación y
+          tratamiento de acuerdo las disposiciones del RGPD. Desde el equipo de
+          ALVEARIUM, estamos comprometidos con un almacenamiento y tratamiento
+          de los datos personales transparente y ajustado a la normativa legal,
+          especialmente considerando el RGPD. La presente Política de Privacidad
+          sirve para poner en conocimiento de los usuarios qué hacemos con los
+          datos personales e información que recopilamos mientras se usa la
+          Página, así como las plataformas y servicios ofrecidos en dicho sitio
+          web.
+        </p>
+        <h2>
+          4.- ¿Qué implica hacerse usuario de la Página en cuanto a la Política
+          de Privacidad?
+        </h2>
+        <p>
+          El registro como usuario en la Página conlleva su expresa aceptación
+          de nuestra Política de Privacidad y nuestros Términos y Condiciones de
+          Uso. Nosotros, a través de los formularios que ponemos a su
+          disposición como usuario, podemos recopilar su información personal
+          con la finalidad de adecuar nuestros servicios a sus necesidades, de
+          manera más personalizada y eficaz. Al aceptar la presente Política de
+          Privacidad, consiente que los datos personales e información que
+          recopilamos de usted puedan ser facilitados a las empresas afiliadas a
+          ALVEARIUM, a contratistas, proveedores de servicios y otros terceros
+          que nos apoyan para el funcionamiento de la Página, así como a
+          eventuales compradores o sucesores de nuestra compañía en el caso de
+          fusión, reestructuración empresarial y/o transferencia, arrendamiento
+          o venta de los activos de ALVEARIUM. Aquellos datos e información que
+          no le identifiquen podrán ser compartidos y transmitidos sin
+          restricción alguna. Igualmente, le hacemos saber que podemos divulgar
+          sus datos personales e información para cumplir con mandatos
+          provenientes de Tribunales, de normas legales o de autoridades
+          públicas. Como usuario de la página, consiente en proporcionar sus
+          datos personales e información voluntariamente al sitio web. La
+          negativa expresa a suministrar la información tiene como consecuencia
+          no recibir información ajustada a sus preferencias ni los servicios
+          que ofrece el sitio web, no pudiendo ser usuario de la Página.
+        </p>
+        <h2>
+          5.- ¿Qué datos e información son almacenados y en qué momento se
+          almacenan?
+        </h2>
+        <p>
+          Le informamos de que podemos recopilar y almacenar datos personales
+          que facilite y genere como usuario durante el uso de la Página. Esos
+          datos personales son importantes en nuestra relación con usted y con
+          el correcto funcionamiento de la Página. ALVEARIUM emplea un
+          procedimiento estándar para el almacenamiento y registro de datos
+          personales e información de sus usuarios. Este sistema de
+          almacenamiento registra a los usuarios que visitan la Página. La
+          información recopilada por los archivos de registro incluye
+          direcciones de protocolo de internet o IP, tipo de navegador,
+          proveedor de servicios de internet o ISP, sello de fecha y hora y
+          páginas de referencia o salida, entre otros aspectos. Estos datos no
+          están vinculados a ninguna información que sea personalmente
+          identificable. Estos datos se usarán para estudio de tendencias,
+          administración de la Página, realizar un seguimiento de movimientos de
+          los usuarios en la Página y recopilar información demográfica de uso y
+          acceso a la Página. Los datos personales que habitualmente recopilamos
+          por el uso de la Página son su nombre, dirección postal y de correo
+          electrónico, número de teléfono, nombre de usuario, contraseña y
+          dirección IP, así como cualquier otra información que resulte
+          relevante para proporcionarte un adecuado acceso a la Página.
+          Incidentalmente, debido al uso de la Página que realice usted como
+          usuario, podemos recopilar y almacenar datos personales de otra clase
+          como pueden ser, por ejemplo, información sobre su salud, creencias,
+          afiliaciones religiosas, origen u opiniones políticas, todo ello en
+          función del uso e interacciones que realice dentro de la Página. Al
+          usar la Página y disfrutar de la plataforma reconoce que se trata de
+          una consecuencia inevitable de su utilización y consiente el
+          almacenamiento de los datos personales e información que facilite
+          durante el uso de la Página y la interacción con otros usuarios. Sus
+          datos personales e información serán recopilados y almacenados cuando
+          use la Página o se dirija al equipo de ALVEARIUM, bien a través de
+          correo electrónico, bien a través de conversación telefónica. Es
+          decir, la información personal que recopilamos y almacenamos depende
+          de su forma de interactuar en la Página y con ALVEARIUM. Se recopila
+          información acerca de cómo usa la Página, los contenidos que visualice
+          y con los que interactúe, las acciones y transacciones que realice, su
+          frecuencia y duración de las actividades. La interactuación en la
+          Página también genera datos sobre su vida, intereses, así como otros
+          contenidos como fotografías y vídeos, todos ellos susceptibles de
+          almacenamiento y tratamiento por nuestro equipo. Se recopilan datos
+          relativos a los métodos de pago propios cuando se realicen
+          transacciones dentro de la Página, incluyendo sobre los activos
+          digitales y otros elementos virtuales que se puedan poner a
+          disposición de los usuarios. Como usuario de la Página para disponer
+          de activos digitales, puede proporcionarnos información de pago,
+          incluyendo de crédito o débito, fecha de caducidad de su tarjeta,
+          código CVV y dirección de facturación, así como aquellos datos para
+          disponer de los activos digitales a través de otros servicios/pasarela
+          de pago como PayPal. Al realizar una transacción para disponer de un
+          activo digital, recibiremos la información correspondiente de la
+          misma. Sí se recopilan datos de los usuarios cuando participan en
+          encuestas, grupos de discusión o estudios de mercado, o cuando
+          participan en promociones, eventos o concursos. Entre la información
+          que recopilamos desde otros medios, se incluye la propia de la
+          interacción entre usuarios, y las que se deriven del uso y vinculación
+          de su usuario de Página con otras redes sociales. Además de recopilar
+          datos personales e información por el uso general de los servicios y
+          funciones de la Página, almacenamos información del dispositivo desde
+          donde esté accediendo a la Página con la finalidad de personalizar el
+          contenido, incluidos anuncios, o las funciones de las que hace uso
+          cuando accede a través de otro dispositivo. Entre los datos
+          correlativos a los dispositivos que se recopilan y procesan se
+          encuentran los propios del hardware y software de los mismos, el
+          navegador utilizado, la información sobre las operaciones y
+          comportamiento realizados desde los dispositivos, los identificadores
+          únicos de los dispositivos o los datos de su configuración. Se
+          recopilan otros datos e información como el nombre de operador de
+          telefonía móvil o proveedores de internet, número de teléfono móvil,
+          dirección IP o los datos procedentes de las cookies almacenadas en el
+          dispositivo, incluida la configuración y sus identificadores. Sus
+          datos personales también serán recopilados cuando un tercero actúe en
+          su nombre, especialmente, en aquellos casos en que sea su
+          padre/madre/tutor legal autorizado la persona que esté actuando en su
+          nombre. Debe tener en cuenta que otros usuarios podrían recopilar
+          información personal que haya subido a la Página, mediante capturas de
+          pantalla o mediante grabaciones de vídeo. Estas captaciones de
+          información por parte de otros usuarios están fuera de nuestro
+          control, y así lo reconoce al aceptar la presente Política de
+          Privacidad del sitio web de ALVEARIUM.
+        </p>
+        <h2>
+          6.- ¿Obtenemos datos e información relativa a usted a través de
+          terceros?
+        </h2>
+        <p>
+          Tanto nuestros socios publicitarios como nuestros colaboradores
+          externos comparten información con ALVEARIUM, como la identificación
+          de cookies del navegador, la identificación de dispositivos móviles,
+          direcciones de correo electrónico cifradas mediante hash, datos
+          demográficos o de sus intereses, así como contenido visualizado o
+          acciones realizadas en una página web o aplicación. Algunos de
+          nuestros socios publicitarios, en concreto nuestros anunciantes,
+          también nos permiten recopilar información similar directamente desde
+          su página web o aplicación integrando nuestra tecnología de
+          publicidad. La información compartida por socios publicitarios y
+          afiliados o recopilada por ALVEARIUM de los sitios web y aplicaciones
+          de socios publicitarios y afiliados puede combinarse con la otra
+          información que usted comparte con y en la Página. Desde ALVEARIUM
+          podemos recibir información sobre usted de terceros que no sean
+          nuestros socios publicitarios como, por ejemplo, otros usuarios de la
+          Página, socios que nos asisten en la evaluación de la seguridad y
+          calidad del contenido de la Página, nuestras filiales y otros
+          servicios que usted vincule a su usuario de la Página Considere que,
+          como usuario de la Página, puede conectar su cuenta a otro servicio de
+          un tercero y ese servicio puede enviarnos información sobre su cuenta
+          en dicho servicio. Resulta igualmente posible que recibamos
+          información sobre usted de nuestros socios cuando se publican anuncios
+          de la Página en los sitios web y plataformas de un socio, así como de
+          los anunciantes que promocionen productos o servicios dentro de la
+          Página que nos remitan informes u otros datos sobre usted. Siempre que
+          jurídicamente se permita, también podemos recibir información de
+          terceros sobre sospechosos o personas malintencionadas que hayan sido
+          condenadas, como parte de nuestros esfuerzos por garantizar la
+          seguridad de nuestros usuarios.
+        </p>
+        <h2>
+          7.- ¿Podemos recopilar datos o información de usted aun cuando no se
+          registre como usuario de la Página?{" "}
+        </h2>
+        <p>
+          Así es, no sólo a través de las cookies, sino que recopilamos
+          información por la visualización de contenidos de la Página, incluso
+          cuando no ha creado una cuenta como usuario en la Página. Se recopilan
+          datos de registro que incluyen información como su dirección IP, tipo
+          de navegador, sistema operativo, página web de procedencia, páginas
+          web visitadas, ubicación, proveedor de servicios de telefonía móvil,
+          información del dispositivo (incluidas las ID del dispositivo y de la
+          aplicación), términos de búsqueda (incluyendo aquellos no se envían
+          como consultas), e información de cookies. En la Página se recopilan
+          datos de registro para administrar nuestros servicios y asegurarnos de
+          su correcto funcionamiento. Los datos de registro sirven tanto para
+          proteger la seguridad de las cuentas y determinar qué contenidos de la
+          Página son tendencia, como para mejorar los contenidos mostrados y la
+          efectividad del marketing de la Página, incluyendo los anuncios.
+          Igualmente, podemos obtener datos de registro cuando visualiza los
+          contenidos de la Página desde el sitio web de un tercero.
+        </p>
+        <h2>
+          8.- ¿Cuáles son las finalidades del almacenamiento y tratamiento de
+          sus datos?
+        </h2>
+        <p>
+          Sus datos personales e información que hayan sido recopilados serán
+          tratados y mantenidos por ALVEARIUM para el correcto desempeño de las
+          funcionalidades y actividades de la Página. Al aceptar la presente
+          Política de Privacidad como usuario de la Página, usted acepta
+          expresamente y de forma libre, que sus datos personales e información
+          sean tratados con los siguientes fines: * Proporcionarle acceso como
+          usuario a la Página para el disfrute de las utilidades propias de la
+          plataforma, incluyendo la interacción con otros usuarios y los activos
+          digitales; * Gestionar su cuenta en la Página; * Personalizar las
+          funciones y contenido que se ofrece desde la Página, así como
+          sugerencias de nuestros productos y servicios; * Resolver sus
+          consultas; * Contactar con usted, como usuario de la Página, en caso
+          de que se produzca cualquier incidencia en el servicio; * Poner a su
+          disposición información promocional, personalizada, tanto nuestra como
+          de terceros colaboradores, así como otros contenidos publicitarios a
+          partir de los datos que recabamos de usted; * Permitirle la
+          realización de transacciones dentro de la Página. * Facilitar procesos
+          de mercadotecnia, así como operaciones comerciales internas o campañas
+          de publicidad y marketing y el estudio de éstas; * Examinar los
+          servicios y necesidades de la Página y de sus usuarios para el
+          desarrollo, mejora y corrección de los servicios ofrecidos, así como
+          la creación de nuevas utilidades del servicio y productos; * Detectar,
+          solucionar y prevenir el fraude y otras actividades ilegales o no
+          autorizadas; * Fomentar la seguridad e integridad dentro de la Página.
+          ALVEARIUM, como responsable del fichero y del tratamiento de datos de
+          carácter personal, está obligada a guardar secreto respecto de todos
+          ellos, así como a conservarlos, obligaciones que subsistirán aún
+          después de finalizar las relaciones del usuario con la Página.
+        </p>
+        <h2>
+          9.- ¿Cuáles son los derechos que le asisten en cuanto a sus datos
+          personales e información recopiladas y tratadas en la Página?
+        </h2>
+        <p>
+          ALVEARIUM le hace saber los derechos que tiene como usuario de la
+          Página, de acuerdo con el RGPD. Podrá ejercer los mismos dirigiéndose
+          a la dirección habilitada de correo electrónico ( Support@alvearium.io ). Es
+          recomendable que se ponga en contacto con nosotros desde la misma
+          dirección con la que se registró en la Página, para facilitarnos su
+          correcta identificación y, de este modo, que podamos atenderle lo
+          antes posible. Entre los derechos reconocidos por el RGPD, como
+          usuario de la Página puede ejercer ante el responsable del tratamiento
+          de datos:
+        </p>
+        <h3>
+          1º.- Su derecho de acceso a conocer si se están tratando o no sus
+          datos personales y a acceder a los mismos, así como a obtener una
+          copia de los datos personales que hayan sido o estén siendo objeto de
+          tratamiento.
+        </h3>
+        <h3>
+          2º.- Su derecho a la rectificación de aquellos datos personales que le
+          conciernan y sean inexactos, de modo que esos datos puedan ser
+          completados.
+        </h3>
+        <h3>
+          3º.- Su derecho a la supresión o cancelación de los datos personales
+          que le conciernan, siempre que concurra alguna de las siguientes
+          circunstancias:
+        </h3>
+        <p>
+          * Si los datos personales ya no son necesarios en relación con los
+          fines para los que fueron recogidos o tratados de otro modo; * Si
+          retira su consentimiento prestado para fines específicos o su
+          consentimiento expreso prestado para el tratamiento de categorías
+          especiales de datos, como los que revelen, por ejemplo, sus opiniones
+          políticas, mientras este tratamiento no se base en otro fundamento
+          jurídico; * Si se opone al tratamiento por motivos relacionados con su
+          situación particular, siempre que no prevalezca otro motivo legítimo
+          para el tratamiento; * Si sus datos personales han sido tratados
+          ilícitamente; * Si sus datos personales deben suprimirse para el
+          cumplimiento de una obligación legal establecida en el Derecho de la
+          Unión o de los Estados miembros que se aplique al responsable del
+          tratamiento. No se aplicará la supresión de sus datos personales
+          cuando el tratamiento sea necesario: * Para ejercer el derecho a la
+          libertad de expresión e información; * Para el cumplimiento de una
+          obligación legal que requiera el tratamiento de datos impuesta por el
+          Derecho de la Unión o de los Estados miembros que se aplique al
+          responsable del tratamiento; * Por razones de interés público o por el
+          ejercicio de poderes públicos conferidos al responsable; * Por fines
+          de archivo en interés público, fines de investigación científica o
+          histórica o fines estadísticos, en la medida en que el derecho a la
+          supresión pudiera hacer imposible u obstaculizar gravemente el logro
+          de los objetivos de dicho tratamiento; * Para la formulación, el
+          ejercicio o la defensa de reclamaciones.
+        </p>
+        <h3>
+          4º.- Su derecho a la limitación del tratamiento de los datos
+          personales, cuando concurra alguna de las siguientes condiciones:
+        </h3>
+        <p>
+          * Si impugna la exactitud de los datos personales durante un plazo que
+          nos permita verificar la exactitud de éstos; * Si el tratamiento de
+          datos ha sido ilícito y se opone a la supresión de los datos
+          personales y solicita en su lugar la limitación de su uso; * Si no
+          necesitamos los datos personales para los fines del tratamiento, pero
+          los necesita para la formulación, el ejercicio o la defensa de
+          reclamaciones; * Si se ha opuesto al tratamiento por motivos
+          relacionados con su situación particular, mientras se verifica si los
+          motivos legítimos como responsable del tratamiento prevalecen sobre
+          los del interesado.
+        </p>
+        <h3>
+          5º.- Su derecho a la portabilidad de sus datos personales, es decir,
+          recibir los datos personales que le conciernan en un formato
+          estructurado, de uso común y lectura mecánica.
+        </h3>
+        <h3>
+          6º.- Su derecho a oponerse, en cualquier momento, por motivos
+          relacionados con su situación particular, al tratamiento de datos
+          basado en lo dispuesto en el artículo 6 apartado primero, letras e y/o
+          f del RGPD, esto es, para el cumplimiento de una misión realizada en
+          interés público o en el ejercicio de poderes públicos conferidos al
+          responsable del tratamiento, o para la satisfacción de intereses
+          legítimos perseguidos por el responsable del tratamiento o por un
+          tercero, siempre que sobre dichos intereses no prevalezcan los
+          intereses o los derechos y libertades fundamentales del interesado que
+          requieran la protección de datos personales, en particular, cuando el
+          interesado sea un niño.
+        </h3>
+        <h3>
+          7º.- Su derecho a reclamar ante las autoridades de protección de datos
+          pertinentes, en el caso de que estime que sus datos personales no
+          estén siendo objeto de un tratamiento correcto.
+        </h3>
+        <h2>10.- ¿ El sitio web de ALVEARIUM utiliza cookies?</h2>
+        <p>
+          La Página emplea cookies. Estas cookies se utilizan para almacenar
+          información, incluidas las preferencias de los visitantes y/o
+          usuarios, y las páginas web que el usuario visitó a través de la
+          Página. A través de las cookies se monitorea el uso de la Página por
+          los usuarios y se crea un registro para servir a los usuarios de
+          manera más efectiva y preparar páginas webs personalizadas a tales
+          efectos. La información obtenida a través de las cookies se destina a
+          la mejora de la experiencia de los usuarios, de tal modo que se
+          personaliza el contenido de la Página en función del tipo de navegador
+          de los usuarios. Los servicios de anuncios o redes publicitarias de
+          terceros utilizan cookies, JavaScript o balizas web en sus respectivos
+          anuncios y enlaces que aparezcan en la Página, que se envían
+          directamente al navegador de los usuarios. ALVEARIUM no tiene acceso
+          ni control sobre estas cookies que utilizan terceros anunciantes. La
+          política de privacidad de la Página no se aplica a otros anunciantes o
+          a sus sitios webs y ALVEARIUM no es responsable de las prácticas en
+          materia de privacidad de los sitios web de terceros, por lo que le
+          aconsejamos que consulte sus correspondientes políticas de privacidad
+          para obtener información más detallada.
+        </p>
+        <h2>
+          11.- ¿Con quienes compartimos sus datos personales e información
+          recopilados en el sitio web de ALVEARIUM?
+        </h2>
+        <p>
+          Para mejorar la Página, colaboramos con terceros para mostrar
+          contenidos personalizados en el sitio web. Cuando vea o interactúe con
+          el contenido de terceros que colaboran con nosotros, estos terceros
+          podrán recibir y tratar sus datos personales e información según sus
+          correspondientes políticas de privacidad. Como usuario de la Página,
+          usted nos permite compartir su información entre los usuarios de la
+          Página para el normal funcionamiento del servicio y para facilitar las
+          transacciones e interacciones dentro de la Página entre los propios
+          usuarios. La información que se divulgará en este sentido entre los
+          usuarios abarca su nombre de usuario, imagen, avatar e interacciones
+          en los activos digitales; y otros datos personales que sean requeridos
+          para disponer de los activos digitales. Asimismo, podremos compartir
+          información con nuestros proveedores de servicios externos, que
+          colaboran con nosotros para proporcionarle una mejor experiencia en la
+          Página, facilitando las transacciones, los servicios de pago, así como
+          los servicios de tecnología de la información. Estos proveedores no
+          están obligados a cumplir con nuestra Política de Privacidad.
+          Colaboramos con terceros para la gestión y mejora de nuestros
+          servicios. Estos terceros nos ayudan con el alojamiento y
+          mantenimiento de datos, análisis, la atención al cliente, la
+          publicidad, los anuncios, el procesamiento de pagos y las operaciones
+          de seguridad. También podemos compartir información con socios que
+          distribuyan y nos ayuden con la publicidad de nuestros servicios. Por
+          lo tanto, nuestros colaboradores con los que compartimos sus datos:
+        </p>
+        <h3>
+          1º.- Proporcionan servicios de análisis y procesamiento de datos
+          acerca de cómo interactúa en la Página, sus servicios y contenidos.
+        </h3>
+        <h3>
+          2º.- Configuran anuncios y estudian la eficacia de éstos, limitando en
+          este caso la información que compartimos, cifrándola y no ofreciendo
+          datos personales que le identifiquen salvo consentimiento expreso en
+          sentido contrario;
+        </h3>
+        <h3>
+          3º.- Ofrecen productos y servicios dentro del propio servicio de la
+          Página;
+        </h3>
+        <h3>
+          4º.- Proporcionan información y contenido para la mejora de la Página.
+        </h3>
+        <p>
+          Los datos personales e información que recopilamos son objeto de
+          tratamiento con el propósito mejorar y personalizar la Página para
+          usted. Por ello, otras entidades que colaboran con nosotros tienen
+          acceso a los datos recopilados a través de la Página para ofrecerle
+          servicios, productos o promociones que puedan interesarle. En ese
+          mismo sentido, es posible que sus datos personales e información
+          puedan ser compartidos en el extranjero, a través de las entidades que
+          colaboran con nosotros y nuestros proveedores de servicios externos u
+          otros destinatarios, que puedan tener su sede en el extranjero o hagan
+          uso de infraestructura fuera de España o de la Unión Europea. Su
+          información de pago es compartida con los proveedores de servicios de
+          pago para procesar los pagos. También se comparte dicha información
+          para evitar, detectar e investigar el fraude u otro tipo de actividad
+          prohibida; facilitar la resolución de controversias, como las
+          ocasionadas por recargos o reembolsos; y para otros fines relacionados
+          con la aceptación de tarjetas de crédito y débito. Finalmente, se le
+          hace saber que compartiremos aquellos datos personales e información
+          que nos requieran las autoridades públicas o jurisdiccionales
+          pertinentes, o cuando así se establezca en algún mandato normativo. En
+          todo caso, recuerde que usted es el único responsable del contenido e
+          información que proporciona a través de la Página y lo que hace o no
+          público, especialmente en lo que se refiere a información sensible.
+          Preste atención a los datos e información sensible que pudiera
+          compartir a través de la Página. Otros usuarios pueden ver su
+          actividad y compartir su contenido con otros usuarios o con terceros,
+          pudiendo ser estos usuarios personas físicas o jurídicas, como
+          empresas o fundaciones. ALVEARIUM no se hace responsable de la
+          divulgación de datos que puedan hacer otros usuarios o terceros
+          respecto del contenido que usted comparta, que puede ser objeto de
+          capturas de pantalla por otros usuarios y posteriormente difundidas
+          dichas capturas dentro o fuera de la Página. Por otra parte, cuando
+          emplee sitios web, aplicaciones u otros servicios de terceros que
+          hagan uso de nuestro servicio o productos, estas plataformas de
+          terceros pueden recabar datos personales e información de usted y su
+          actividad. ALVEARIUM no se hace responsable de la recopilación de
+          datos que hagan terceros en este caso.
+        </p>
+        <h2>
+          12.- ¿Cómo aplica nuestra Política de Privacidad a menores de edad de
+          18 años?
+        </h2>
+        <p>
+          La Página no está destinada a menores de 18 años. Los menores de edad
+          de 18 años no pueden registrarse como usuarios ni aportar datos
+          personales e información en nuestro sitio web. Si usted es menor de 18
+          años, no debe utilizar la Página ni proporcionar ninguna información
+          personal en este sitio web o a través de cualquiera de sus funciones o
+          de su sistema de registro. Tampoco debe realizar transacciones a
+          través de la Página o utilizar las funciones de interacción social con
+          otros usuarios, incluyendo compartir su nombre, dirección, número de
+          teléfono u otros datos personales. Si desde el equipo de ALVEARIUM
+          comprobamos que, en realidad, usted es un menor de 18 años y que ha
+          accedido a la Página, sin aportar un justificante de autorización de
+          sus padres/tutor legal a ese efecto, procederemos a la eliminación de
+          su usuario y sus datos personales recopilados hasta ese momento.
+          Finalmente, si como usuario de la Página cree usted que deberíamos
+          verificar si algún usuario es menor de edad, por favor, envíenos un
+          correo a tal efecto a la dirección de habilitada de correo
+          electrónico.
+        </p>
+        <h2>
+          13.- ¿Cómo notificaremos los cambios que se produzcan en esta
+          política?
+        </h2>
+        <p>
+          Le enviaremos una notificación antes de realizar cambios en esta
+          política para que pueda revisar las modificaciones y decidir si quiere
+          seguir usando nuestros Productos.
+        </p>
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,49 @@
+.contenedor-general {
+    display: flex;
+    /* flex-wrap: wrap; */
+    scroll-behavior: auto;
+}
+
+.contenedor-filas {
+    display: flex;
+    /* flex-wrap: wrap; */
+    scroll-behavior: auto;
+}
+
+.contenedor-contenido {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 940px) {
+    .contenedor-filas {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .contenedor-general {
+        flex-wrap: wrap;
+        flex-direction: row;
+        overflow: auto;
+        width: 100%;
+    }
+
+    .imagen {
+        max-width: 6rem;
+        max-height: 6rem;
+    }
+
+    .contenedor-filas {
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 435px) {
+    .contenedor-filas {
+        gap: 3rem;
+    }
+
+    .imagen {
+        max-width: 7rem;
+        max-height: 7rem;
+    }
+}

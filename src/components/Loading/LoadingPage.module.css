@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  text-align: center;
+  position: relative; /* Needed for z-index to work on the container */
+  z-index: 1; /* Set the base z-index for the container */
+}
+
+.logoContainer {
+  position: relative; /* Needed for z-index to work */
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin-left: 100px; /* Desplaza el logo hacia la derecha */
+  z-index: 2; /* Set the z-index to ensure the logo container stays above the container */
+}
+
+.logoWhite {
+  position: absolute; /* Ensure the logo is positioned correctly */
+  top: 0;
+  left: 0;
+  z-index: 3; /* Stack the white logo above the container */
+}
+
+.logoColor {
+  position: absolute; /* Ensure the logo is positioned correctly */
+  top: 0;
+  left: 0;
+  clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+  animation: waveReveal 6s ease-in-out forwards;
+  z-index: 4; /* Stack the colored logo above the white logo */
+}
+
+.loader {
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: system-ui, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #b300b3;
+  display: inline-block;
+  padding-top: 20px;
+  position: relative; /* Enable z-index for the loader */
+  z-index: 5; /* Ensure the loader appears above other elements */
+}
+
+/* COMENTAR************************************************************** */
+
+ @keyframes waveReveal {
+  0% { clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%); }
+  100% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+} 
+
+ .loader::before {
+  content: "0%";
+  animation: changeContent 6s linear forwards;
+} 
+
+ @keyframes changeContent {
+  0% { content: "0%"; }
+  10% { content: "10%"; }
+  20% { content: "20%"; }
+  30% { content: "30%"; }
+  40% { content: "40%"; }
+  50% { content: "50%"; }
+  60% { content: "60%"; }
+  70% { content: "70%"; }
+  80% { content: "80%"; }
+  90% { content: "90%"; }
+  99% { content: "100%"; }
+  100% { content: "BIENVENIDO"; }
+} 
