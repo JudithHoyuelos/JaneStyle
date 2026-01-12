@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const REPO_NAME = 'janestyle';
+const REPO_NAME = 'JaneStyle';
 const env = process.env.NEXT_PUBLIC_ENV;
 
 const nextConfig = {
