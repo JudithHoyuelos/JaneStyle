@@ -10,7 +10,6 @@ import Sonido from "@/components/sonido/Sonido";
 import Terminos from "@/components/text/Terminos";
 import Preguntas from "@/components/text/Preguntas";
 import ChatbotInfo from "@/components/text/ChatbotInfo";
-import Chatbot from "@/components/alvy/Chatbot";
 import Contacto from "@/components/text/Contacto";
 import MenuInfo from "@/components/text/MenuInfo";
 import ModelWithHtml from "@/components/modeloHtml/ModelWithHtml";
@@ -203,7 +202,6 @@ function P2CanvasComponent() {
 
       <Sonido />
       <Navbar title={"Informacion"}></Navbar>
-      <Chatbot />
     </>
   );
 }

@@ -31,7 +31,6 @@ import {
   CanvasNuestraHistoria,
 } from "@/hooks/useCameraDrag";
 import { EffectComposer, Bloom, Selection, Select } from "@react-three/postprocessing";
-import Chatbot from "@/components/alvy/Chatbot";
 
 
 function P3Historia() {
@@ -171,7 +170,6 @@ function P3Historia() {
         />
       )}
       <Sonido />
-      <Chatbot/>
     </>
   );
 }

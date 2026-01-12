@@ -10,7 +10,6 @@ import Sonido from "@/components/sonido/Sonido";
 import InicioLogo from "@/components/logo/logo";
 import ReturnButton from "@/components/logicaP2/returnbutton";
 import withProgressLoader from "@/components/common/Loader/withProgressLoader";
-import Chatbot from "@/components/alvy/Chatbot";
 
 
 function P6Contenido() {
@@ -28,7 +27,6 @@ function P6Contenido() {
        <Sonido /> 
       <InicioLogo />
       <ReturnButton />
-      <Chatbot showCanvas={true} />
     </>
   );
 }
