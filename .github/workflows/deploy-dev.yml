@@ -5,6 +5,9 @@ on:
     tags:
       - 'v*-beta'
 
+permissions:
+  contents: write
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -17,11 +20,15 @@ jobs:
           node-version: 18
 
       - run: npm install
-      - run: npm run build
+
+      - name: Build DEV
+        run: npm run build
+        env:
+          NEXT_PUBLIC_ENV: dev
 
       - name: Deploy DEV
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./out
           destination_dir: dev
