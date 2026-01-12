@@ -35,7 +35,7 @@ const Sonido = () => {
         <div className="barra"></div>
       </div>
       {/* Elemento de audio oculto pero accesible */}
-      <audio ref={audioRef} src="/audio/Natural speed.mp3"></audio>
+      <audio ref={audioRef} src="audio/Natural speed.mp3"></audio>
     </div>
   );
 };

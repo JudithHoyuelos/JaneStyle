@@ -287,7 +287,7 @@ function Auth() {
               className="w-full text-black p-3 rounded-full border border-black flex items-center justify-center gap-2"
             >
               <img
-                src="/img/logos/google_logo.png"
+                src="img/logos/google_logo.png"
                 alt="Logo de Google"
                 className="w-6 h-6"
               />
@@ -398,7 +398,7 @@ function Auth() {
               className="w-full text-black p-3 rounded-full border border-black flex items-center justify-center gap-2"
             >
               <img
-                src="/img/logos/google_logo.png"
+                src="img/logos/google_logo.png"
                 alt="Logo de Google"
                 className="w-6 h-6"
               />

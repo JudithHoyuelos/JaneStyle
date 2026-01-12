@@ -9,7 +9,7 @@ export default function ButtonMicrophone({ onClick, isRecording }) {
         className={`${styles.mic} ${isRecording ? styles.listening : ""} lg:hover:bg-foundation-3`}
         onClick={onClick}
       >
-        <img src="/img/icons/microphone.svg" className="p-2 lg:p-3" />
+        <img src="img/icons/microphone.svg" className="p-2 lg:p-3" />
       </button>
     </div>
   );

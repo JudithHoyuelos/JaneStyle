@@ -26,7 +26,7 @@ const InicioLogo = ({ title }) => {
       }}
     >
       <img
-        src="/img/logos/Alvearium_logo-whitepeq.png"
+        src="img/logos/Alvearium_logo-whitepeq.png"
         alt="Logo"
         style={{  marginTop: "-1rem" }}
         className="logo"

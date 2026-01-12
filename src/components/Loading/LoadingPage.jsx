@@ -34,8 +34,8 @@ const LoadingPage = () => {
     <div className={styles.container}>
       <div className="logoContainer"></div>
       <div className={styles.logoContainer}>
-        <Image src="/img/logos/Property 1=logo purple.svg" alt="Logo" width={200} height={200} className={styles.logoWhite} />
-        <Image src="/img/logos/Property 1=Variant2.svg" alt="Logo" width={200} height={200} className={styles.logoColor} />
+        <Image src="img/logos/Property 1=logo purple.svg" alt="Logo" width={200} height={200} className={styles.logoWhite} />
+        <Image src="img/logos/Property 1=Variant2.svg" alt="Logo" width={200} height={200} className={styles.logoColor} />
         <div className={styles.waveOverlay}></div>
       </div>
       <div className={styles.loader}></div>

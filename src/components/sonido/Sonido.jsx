@@ -62,7 +62,7 @@ const Sonido = ({ isMenuOpen }) => {
         <div className="barra"></div>
         <div className="barra"></div>
       </div>
-      <audio ref={audioRef} src="/audio/Sea Waves - Sound Effect.mp3"></audio>
+      <audio ref={audioRef} src="audio/Sea Waves - Sound Effect.mp3"></audio>
     </div>
   );
 };

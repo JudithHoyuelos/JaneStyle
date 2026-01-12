@@ -28,7 +28,7 @@ const Contacto = () => {
                             >
                                 <div className="w-20 h-20 sm:w-24 sm:h-24 redes-img">
                                     <img
-                                        src="/img/icons/icons8-linkedin.svg"
+                                        src="img/icons/icons8-linkedin.svg"
                                         alt="LinkedIn"
                                         className="w-full h-full object-cover rounded"
                                         loading="lazy"
@@ -38,7 +38,7 @@ const Contacto = () => {
 
                             <div className="w-20 h-20 sm:w-24 sm:h-24 redes-img bg-black">
                                 <img
-                                    src="/img/QR.jpg"
+                                    src="img/QR.jpg"
                                     alt="QR"
                                     className="w-full h-full object-cover rounded"
                                     loading="lazy"
@@ -62,7 +62,7 @@ const Contacto = () => {
                         >
                             <div className="w-20 h-20 sm:w-24 sm:h-24 redes-img">
                                 <img
-                                    src="/img/icons/icons8-linkedin.svg"
+                                    src="img/icons/icons8-linkedin.svg"
                                     alt="LinkedIn"
                                     className="w-full h-full object-cover rounded"
                                     loading="lazy"
@@ -77,7 +77,7 @@ const Contacto = () => {
                         >
                             <div className="w-20 h-20 sm:w-24 sm:h-24 redes-img">
                                 <img
-                                    src="/img/icons/icons8-insta.svg"
+                                    src="img/icons/icons8-insta.svg"
                                     alt="Instagram"
                                     className="w-full h-full object-cover rounded"
                                     loading="lazy"
@@ -92,7 +92,7 @@ const Contacto = () => {
                         >
                             <div className="w-20 h-20 sm:w-24 sm:h-24 redes-img">
                                 <img
-                                    src="/img/icons/icons8-facebook.svg"
+                                    src="img/icons/icons8-facebook.svg"
                                     alt="Facebook"
                                     className="w-full h-full object-cover rounded"
                                     loading="lazy"
@@ -107,7 +107,7 @@ const Contacto = () => {
                         >
                             <div className="w-20 h-20 sm:w-24 sm:h-24 redes-img">
                                 <img
-                                    src="/img/icons/6627-x-logo.png"
+                                    src="img/icons/6627-x-logo.png"
                                     alt="Twitter"
                                     className="w-full h-full object-cover rounded"
                                     loading="lazy"

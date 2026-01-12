@@ -56,7 +56,7 @@
         <li><h1>Contacto Alternativo</h1></li>
         <li className="video">
           <video width="520" height="340" controls controlsList="nodownload">
-            <source src="/videos/alveariumExampleVideo.mp4" type="video/mp4" />
+            <source src="videos/alveariumExampleVideo.mp4" type="video/mp4" />
             Tu navegador no soporta la etiqueta de video.
           </video>
         </li>
@@ -72,7 +72,7 @@
         <li><h1>Preguntas Frecuentes</h1></li>
         <li>
           <video width="520" height="340" controls controlsList="nodownload">
-            <source src="/videos/alveariumExampleVideo.mp4" type="video/mp4" />
+            <source src="videos/alveariumExampleVideo.mp4" type="video/mp4" />
             Tu navegador no soporta la etiqueta de video.
           </video>
         </li>
@@ -88,7 +88,7 @@
         <li><h1>ChatBot</h1></li>
         <li>
           <video width="520" height="340" controls controlsList="nodownload">
-            <source src="/videos/alveariumExampleVideo.mp4" type="video/mp4" />
+            <source src="videos/alveariumExampleVideo.mp4" type="video/mp4" />
             Tu navegador no soporta la etiqueta de video.
           </video>
         </li>
@@ -107,7 +107,7 @@
         <li><h1>Términos y Condiciones</h1></li>
         <li>
           <video width="520" height="340" controls controlsList="nodownload">
-            <source src="/videos/alveariumExampleVideo.mp4" type="video/mp4" />
+            <source src="videos/alveariumExampleVideo.mp4" type="video/mp4" />
             Tu navegador no soporta la etiqueta de video.
           </video>
         </li>

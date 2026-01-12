@@ -6,7 +6,7 @@ export default function BasesLegales() {
     <div className="m-7">
       <div className="logo max-w-screen-sm">
         <Image
-          src="/img/logos/Alv_ColorPNG.png"
+          src="img/logos/Alv_ColorPNG.png"
           alt="Logo"
           width={500} // Ajusta según el ancho deseado
           height={300} // Ajusta según la altura deseada
