@@ -30,7 +30,7 @@ import {
   Canvas1,
   CanvasNuestraHistoria,
 } from "@/hooks/useCameraDrag";
-import { EffectComposer, Bloom, Selection, Select } from "@react-three/postprocessing";
+// import { EffectComposer, Bloom, Selection, Select } from "@react-three/postprocessing";
 
 
 function P3Historia() {
@@ -92,9 +92,9 @@ function P3Historia() {
       <CameraProvider>
         <CanvasNuestraHistoria>
 
-          <EffectComposer>
+          {/* <EffectComposer>
             <Bloom intensity={0.1} luminanceThreshold={1} luminanceSmoothing={1} />
-          </EffectComposer>
+          </EffectComposer> */}
           <fog attach="fog" args={['#ff6347', 10, 20]} />
           <ColorChanging />
           <RecursiveScenes
