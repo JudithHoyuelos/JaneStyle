@@ -18,7 +18,7 @@ const InicioLogoLanding = ({  }) => {
       }}
     >
       <img
-        src="/img/logos/Alvearium_logo-white_optimized.png"
+        src="/img/logos/JANESTYLE (NEGRO).png"
         alt="Logo"
         // style={{ width: "33rem", marginTop: "-1rem" }}
         className="logol"

@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="img/logos/favicon.png" />
+        <link rel="icon" href="img/logos/JS (BLANCO).png" />
       </head>
       <body className={`antialiased`}>
         <GlobalProviders>

@@ -24,20 +24,20 @@ const MenuLanding = () => {
             <ul className="lista">
                 <li>
                     <button onClick={() => handleNavigation("/login")}>
-                        Acceso de Usuario
+                      Biografia
                     </button>
                 </li>
                 <li>
                     <button onClick={() => handleNavigation("/informacion")}>
-                        ⁠Información General
+                       Proyectos
                     </button>
                 </li>
                 <li>
                     <button onClick={() => handleNavigation("/")}>
-                        Samplia World
+                        Contacto
                     </button>
                 </li>
-                <li>
+                {/* <li>
                     <button onClick={() => handleNavigation("/")}>
                         Uber Eats World
                     </button>
@@ -51,7 +51,7 @@ const MenuLanding = () => {
                     <button onClick={() => handleNavigation("/")}>
                         ⁠Corte Inglés entradas World
                     </button>
-                </li>
+                </li> */}
             </ul>
         </>
     );

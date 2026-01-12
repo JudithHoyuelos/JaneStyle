@@ -1,13 +1,13 @@
 .logol {
-    width: 28rem;
-    margin-top: -2.5rem;
+    width: 14rem;
+    margin-top: 1rem;
     /* max-width: none; */
 }
 
 @media (max-width: 940px) {
     .logol {
-      max-width: 25rem;
-      margin-top: -5rem;
+      max-width: 13rem;
+      margin-top: 1rem;
     }
 }
 

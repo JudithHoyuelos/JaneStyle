@@ -12,7 +12,6 @@ import NavBarLanding from "@/components/NavbarLanding/NavbarLanding";
 import { useSidebarLanding } from "@/components/NavbarLanding/SidebarContextLandig";
 import FooterLinks from "@/components/landing/FooterLinks";
 import withProgressLoader from "@/components/common/Loader/withProgressLoader";
-import Chatbot from "@/components/alvy/Chatbot";
 
 function Portales() {
   const cameraRef = useRef();
@@ -129,7 +128,6 @@ function Portales() {
         </SidebarLanding>
       </div>
       <Sonido isMenuOpen={isSidebarhmOpen || isSidebarCOpen} />
-      <Chatbot/>
     </>
   );
 }

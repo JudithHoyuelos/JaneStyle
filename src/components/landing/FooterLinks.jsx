@@ -42,14 +42,14 @@ const FooterLinks = ({ isSidebarhmOpen }) => {
         </div>
       </div>
 
-      {/* Términos y condiciones */}
+      {/* Términos y condiciones
       <div className="w-full">
         <div className="flex flex-row flex-wrap items-center justify-center text-center gap-1 sm:gap-2 p-1 terminos">
           <FooterLink href="https://alvearium.io/bases-legales" text="Bases Legales" />
           <FooterLink href="https://alvearium.io/term-and-conditions" text="Términos y condiciones" />
           <FooterLink href="https://alvearium.io/privacy-policy" text="Política de privacidad" />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
