@@ -12,6 +12,7 @@ import glassStyles from "@/styles/card-glass.module.css";
 import LatButton from "../../common/Buttons/ButtonLat";
 import ButtonClose from "../../common/Buttons/ButtonClose";
 import { ContainerCenter, Divider } from "@/components/GeneralComp";
+import { asset } from '@/utils/basePath';
 
 
 /**
@@ -163,7 +164,7 @@ const ModalCustom = ({ isVisible, onOpen }) => {
     }
 
     const newProfileImg = document.createElement("a-image");
-    newProfileImg.setAttribute("src", url || "img/profile-picture.svg");
+    newProfileImg.setAttribute("src", url || asset("img/profile-picture.svg"));
     newProfileImg.setAttribute("responsive-size", "maxSize: 2.1");
     newProfileImg.setAttribute("id", "profileImg");
     newProfileImg.setAttribute("position", "-10.9 2.23 -8.95");

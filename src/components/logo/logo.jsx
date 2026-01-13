@@ -1,5 +1,6 @@
 import { useRouter } from "next/navigation";
 import './logo.css'; // Importa el CSS
+import { asset } from '@/utils/basePath';
 
 
 const InicioLogo = ({ title }) => {
@@ -26,7 +27,7 @@ const InicioLogo = ({ title }) => {
       }}
     >
       <img
-        src="img/logos/Alvearium_logo-whitepeq.png"
+        asset={"img/logos/Alvearium_logo-whitepeq.png"}
         alt="Logo"
         style={{  marginTop: "-1rem" }}
         className="logo"

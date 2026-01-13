@@ -1,5 +1,6 @@
 import { useRouter } from "next/navigation";
 import "./logo.css"
+import { asset } from '@/utils/basePath';
 
 const InicioLogoLanding = ({  }) => {
   const router = useRouter();
@@ -18,7 +19,7 @@ const InicioLogoLanding = ({  }) => {
       }}
     >
       <img
-        src="img/logos/JANESTYLE (NEGRO).png"
+        asset={"img/logos/JANESTYLE (NEGRO).png"}
         alt="Logo"
         // style={{ width: "33rem", marginTop: "-1rem" }}
         className="logol"

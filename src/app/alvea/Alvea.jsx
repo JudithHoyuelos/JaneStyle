@@ -8,6 +8,7 @@ import "@/helpers/alvea/hdr";
 
 import React, { useEffect, useState, useCallback } from "react";
 import * as alvy from "@/lib/alvy";
+import { asset } from '@/utils/basePath';
 
 import useAudioRecorder from "@/hooks/useAudioRecorder";
 
@@ -38,14 +39,14 @@ function P1Alvea({ onModelsLoaded }) {
 
     if (isRecording) {
       setIsInteractionDisabled(true);
-      alvyImg.setAttribute("src", "img/icons/microphone.svg");
+      alvyImg.setAttribute("src", asset("img/icons/microphone.svg"));
       alvyImg.removeAttribute("animation__2");
       alvyImg.setAttribute("rotation", "0 0 0");
     } else if (
       !isRecording &&
-      alvyImg.getAttribute("src") === "img/icons/microphone.svg"
+      alvyImg.getAttribute("src") === asset("img/icons/microphone.svg")
     ) {
-      alvyImg.setAttribute("src", "img/icons/loading.svg");
+      alvyImg.setAttribute("src", asset("img/icons/loading.svg"));
       alvyImg.setAttribute(
         "animation__2",
         "property: rotation; to: 0 0 360; dur: 1000; loop: true; easing: linear;"
@@ -65,19 +66,19 @@ function P1Alvea({ onModelsLoaded }) {
 
         alvyImg.setAttribute("rotation", "0 0 0");
         alvyImg.removeAttribute("animation__2");
-        alvyImg.setAttribute("src", "img/icons/sound.svg");
+        alvyImg.setAttribute("src", asset("img/icons/sound.svg"));
 
         audioElement.play().catch((error) => { });
 
         audioElement.onended = () => {
           setIsClicked(false);
           setIsInteractionDisabled(false);
-          alvyImg.setAttribute("src", "img/icons/click.svg");
+          alvyImg.setAttribute("src", asset("img/icons/click.svg"));
         };
       } else {
         alvyImg.setAttribute("rotation", "0 0 0");
         alvyImg.removeAttribute("animation__2");
-        alvyImg.setAttribute("src", "img/icons/click.svg");
+        alvyImg.setAttribute("src", asset("img/icons/click.svg"));
         setIsInteractionDisabled(false);
       }
     });
@@ -186,7 +187,7 @@ function P1Alvea({ onModelsLoaded }) {
             )}
             <a-image
               id="AlvyImg"
-              src="img/icons/click.svg"
+              // src="img/icons/click.svg"
               animation="property: position; to: 0 4 0; dur: 2000; easing: linear; loop: true; dir: alternate"
               position="0 4.5 0"
               scale="1 1 1"
@@ -200,7 +201,7 @@ function P1Alvea({ onModelsLoaded }) {
           height="2"
           position="-10.9 2.25 -9"
           rotation="0 90 0"
-          src="img/profile-picture.svg"
+          // src="img/profile-picture.svg"
         ></a-image>
         <a-entity
           id="Navmesh"

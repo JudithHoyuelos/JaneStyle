@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import './Sonido.css';
+import { asset } from '@/utils/basePath';
 
 /**
  * Es el boton que activa o desactiva el sonido en todas las paguinas.
@@ -62,7 +63,7 @@ const Sonido = ({ isMenuOpen }) => {
         <div className="barra"></div>
         <div className="barra"></div>
       </div>
-      <audio ref={audioRef} src="audio/Sea Waves - Sound Effect.mp3"></audio>
+      <audio ref={audioRef} asset={"audio/Sea Waves - Sound Effect.mp3"}></audio>
     </div>
   );
 };

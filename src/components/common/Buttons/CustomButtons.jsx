@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './CustomButtons.css';
+import { asset } from '@/utils/basePath';
 
 const CustomButtons = ({ onLeftClick, onRightClick, isMenuOpen }) => {
   const [isMobile, setIsMobile] = useState(false);
@@ -21,7 +22,7 @@ const CustomButtons = ({ onLeftClick, onRightClick, isMenuOpen }) => {
         className={`custom-button left-button ${isMenuOpen ? 'hidden' : ''}`}
       >
         <img
-          src="img/icons/arrow-sm-left-svgrepo-com.svg"
+          asset={"img/icons/arrow-sm-left-svgrepo-com.svg"}
           alt="Flecha izquierda"
           className="button-icon"
         />
@@ -33,7 +34,7 @@ const CustomButtons = ({ onLeftClick, onRightClick, isMenuOpen }) => {
         className={`custom-button right-button ${isMenuOpen ? 'hidden' : ''}`}
       >
         <img
-          src="img/icons/arrow-sm-right-svgrepo-com.svg"
+          asset={"img/icons/arrow-sm-right-svgrepo-com.svg"}
           alt="Flecha derecha"
           className="button-icon"
         />

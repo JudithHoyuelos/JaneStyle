@@ -32,7 +32,7 @@ export function Instructions({ isVisible, onOpen }) {
               <h2 className="text-xl lg:text-2xl font-bold text-center">Instrucciones</h2>
               <div className="flex flex-col items-center text-center">
                 <img
-                  src="img/keys.png"
+                  // src="img/keys.png"
                   alt="Teclas del teclado"
                   className="keys lg:h-16 h-12 w-auto"
                 />
@@ -43,7 +43,7 @@ export function Instructions({ isVisible, onOpen }) {
               </div>
               <div className="flex flex-col items-center text-center">
                 <img
-                  src="img/alvirobot.png"
+                  // src="img/alvirobot.png"
                   alt="Arrastrar y soltar"
                   className="lg:h-16 h-12 w-auto"
                 />
@@ -55,7 +55,7 @@ export function Instructions({ isVisible, onOpen }) {
               </div>
               <div className="flex-col flex items-center text-center">
                 <img
-                  src="img/drag-and-drop.png"
+                  // src="img/drag-and-drop.png"
                   alt="Arrastrar y soltar"
                   className="lg:h-16 h-12 w-auto"
                 />

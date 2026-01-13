@@ -5,7 +5,7 @@ export default function TermAndConditions() {
     <div className="m-7">
       <div className="logo max-w-screen-sm">
         <img
-          src="img/logos/Alv_ColorPNG.png"
+          // src="img/logos/Alv_ColorPNG.png"
           alt="Logo"
           className="logo w-full h-full"
           style={{ filter: "invert(100%)" }}

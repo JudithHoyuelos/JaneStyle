@@ -1,5 +1,6 @@
 import { useRouter } from "next/navigation";
 import './logo.css'
+import { asset } from '@/utils/basePath';
 
 const InicioLogoGeneral = ({  }) => {
   const router = useRouter();
@@ -18,7 +19,7 @@ const InicioLogoGeneral = ({  }) => {
       }}
     >
       <img
-        src="img/logos/Alvearium_logo-white_optimized - copia.png"
+        asset={"img/logos/Alvearium_logo-white_optimized - copia.png"}
         alt="Logo"
         // style={{ width: "33rem", marginTop: "-1rem" }}
         className="logol"

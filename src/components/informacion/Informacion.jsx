@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { asset } from '@/utils/basePath';
 
 const Sonido = () => {
   const [isSoundOn, setIsSoundOn] = useState(false);
@@ -35,7 +36,7 @@ const Sonido = () => {
         <div className="barra"></div>
       </div>
       {/* Elemento de audio oculto pero accesible */}
-      <audio ref={audioRef} src="audio/Natural speed.mp3"></audio>
+      <audio ref={audioRef} asset={"audio/Natural speed.mp3"}></audio>
     </div>
   );
 };
