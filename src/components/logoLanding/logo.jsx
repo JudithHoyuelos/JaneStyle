@@ -19,7 +19,7 @@ const InicioLogoLanding = ({  }) => {
       }}
     >
       <img
-        src={asset=("img/logos/JANESTYLE (NEGRO).png")}
+        src={asset("img/logos/JANESTYLE (NEGRO).png")}
         alt="Logo"
         // style={{ width: "33rem", marginTop: "-1rem" }}
         className="logol"
