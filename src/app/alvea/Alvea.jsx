@@ -187,7 +187,7 @@ function P1Alvea({ onModelsLoaded }) {
             )}
             <a-image
               id="AlvyImg"
-              // src="img/icons/click.svg"
+              src={asset=("img/icons/click.svg")}
               animation="property: position; to: 0 4 0; dur: 2000; easing: linear; loop: true; dir: alternate"
               position="0 4.5 0"
               scale="1 1 1"
@@ -201,7 +201,7 @@ function P1Alvea({ onModelsLoaded }) {
           height="2"
           position="-10.9 2.25 -9"
           rotation="0 90 0"
-          // src="img/profile-picture.svg"
+          src={asset=("img/profile-picture.svg")}
         ></a-image>
         <a-entity
           id="Navmesh"

@@ -19,7 +19,7 @@ const InicioLogoGeneral = ({  }) => {
       }}
     >
       <img
-        asset={"img/logos/Alvearium_logo-white_optimized - copia.png"}
+        src={asset=("img/logos/Alvearium_logo-white_optimized - copia.png")}
         alt="Logo"
         // style={{ width: "33rem", marginTop: "-1rem" }}
         className="logol"

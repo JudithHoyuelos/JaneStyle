@@ -22,7 +22,7 @@ const CustomButtons = ({ onLeftClick, onRightClick, isMenuOpen }) => {
         className={`custom-button left-button ${isMenuOpen ? 'hidden' : ''}`}
       >
         <img
-          asset={"img/icons/arrow-sm-left-svgrepo-com.svg"}
+          href={asset=("img/icons/arrow-sm-left-svgrepo-com.svg")}
           alt="Flecha izquierda"
           className="button-icon"
         />
@@ -34,7 +34,7 @@ const CustomButtons = ({ onLeftClick, onRightClick, isMenuOpen }) => {
         className={`custom-button right-button ${isMenuOpen ? 'hidden' : ''}`}
       >
         <img
-          asset={"img/icons/arrow-sm-right-svgrepo-com.svg"}
+          href={asset=("img/icons/arrow-sm-right-svgrepo-com.svg")}
           alt="Flecha derecha"
           className="button-icon"
         />

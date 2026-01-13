@@ -37,7 +37,7 @@ const Viewer = ({ modelUrl }) => {
   return (
     <Canvas>
       {/* Luz */}
-      <Environment background={false} files="/img/equirectangular/sky-background-4.hdr"></Environment>
+      <Environment background={false} files={asset('img/equirectangular/sky-background-4.hdr')}></Environment>
       <ambientLight intensity={1.5} />
       <directionalLight position={[10, 10, 5]} intensity={1} />
       <Suspense fallback={<Html>Loading...</Html>}>

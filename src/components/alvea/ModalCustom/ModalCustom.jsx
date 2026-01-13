@@ -254,12 +254,12 @@ const ModalCustom = ({ isVisible, onOpen }) => {
       buttons: [
         {
           className: "",
-          value: "/img/equirectangular/rogland_clear_night_4k.hdr",
+          value: asset("/img/equirectangular/rogland_clear_night_4k.hdr"),
           text: "Noche",
         },
         {
           className: "",
-          value: "/img/equirectangular/sky-background-4.hdr",
+          value: asset("/img/equirectangular/sky-background-4.hdr"),
           text: "Mar y Montañas",
         },
       ],

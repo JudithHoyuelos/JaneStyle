@@ -1,5 +1,6 @@
 import "./globals.css";
 import GlobalProviders from "@/contexts/GlobalProviders";
+import { asset } from '@/utils/basePath';
 
 export const metadata = {
   title: "JaneStyle",
@@ -10,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="img/logos/JS (BLANCO).png" />
+        <link rel="icon" href={asset=('img/logos/JS (BLANCO).png')} />
       </head>
       <body className={`antialiased`}>
         <GlobalProviders>

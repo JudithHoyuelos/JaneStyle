@@ -59,7 +59,7 @@ export function CustomCanvas({
  * Aplica un fondo ambiental HDRI 
  */
 export function SkyComponent() {
-  return <Environment files="/img/equirectangular/sky-background-4.hdr" background />;
+  return <Environment files={asset('img/equirectangular/sky-background-4.hdr')} background />;
 }
 
 /**

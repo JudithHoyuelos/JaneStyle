@@ -27,7 +27,7 @@ const InicioLogo = ({ title }) => {
       }}
     >
       <img
-        asset={"img/logos/Alvearium_logo-whitepeq.png"}
+        src={asset=("img/logos/Alvearium_logo-whitepeq.png")}
         alt="Logo"
         style={{  marginTop: "-1rem" }}
         className="logo"

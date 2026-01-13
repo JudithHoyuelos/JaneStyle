@@ -22,22 +22,22 @@ const FooterLinks = ({ isSidebarhmOpen }) => {
         <div className="flex justify-center items-center w-full max-w-[280px] sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
           <SocialIcon
             href="https://www.linkedin.com/company/alveariumvr/"
-            asset={"img/icons/icons8-linkedin.svg"}
+            src={asset=("img/icons/icons8-linkedin.svg")}
             alt="LinkedIn"
           />
           <SocialIcon
             href="https://www.instagram.com/alvearium_/"
-            asset={"img/icons/icons8-insta.svg"}
+            src={asset=("img/icons/icons8-insta.svg")}
             alt="Instagram"
           />
           <SocialIcon
             href="https://www.facebook.com/people/Alvearium/100083367819508/"
-            asset={"img/icons/icons8-facebook.svg"}
+            src={asset=("img/icons/icons8-facebook.svg")}
             alt="Facebook"
           />
           <SocialIcon
             href="https://x.com/alvearium__"
-            asset={"img/icons/6627-x-logo.png"}
+            src={asset=("img/icons/6627-x-logo.png")}
             alt="Twitter"
           />
         </div>
