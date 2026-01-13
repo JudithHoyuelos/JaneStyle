@@ -13,7 +13,7 @@ export const portals = [
     texture: asset("/img/equirectangular/sky-background-4.hdr"),
     name: "⁠Información General",
     url: "/informacion",
-    modelUrl: "/models/Alvy-AI_Alvearium.glb", // URL del modelo GLB
+    modelUrl: asset("/models/Alvy-AI_Alvearium.glb"), // URL del modelo GLB
     modelScale: [0.05, 0.05, 0.05], // Escala del modelo
     isGlass: false,
   },

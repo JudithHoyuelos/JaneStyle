@@ -165,7 +165,7 @@ function P1Alvea({ onModelsLoaded }) {
         <a-entity>
           <a-entity
             id="Alvy"
-            gltf-model="/models/Alvy-AI_Alvearium.glb"
+            gltf-model={asset("/models/Alvy-AI_Alvearium.glb")}
             data-raycastable
             followcamera
             look-at="#player"

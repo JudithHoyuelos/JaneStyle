@@ -70,7 +70,7 @@ export function OceanComponent() {
   return (
     <Ocean
       dimensions={[200, 200]}
-      normals="/img/textures/waternormals.jpg"
+      normals={asset("/img/textures/waternormals.jpg")}
       distortionScale={1}
       size={3}
       options={{
