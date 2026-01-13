@@ -3,6 +3,7 @@ import { Environment, useGLTF } from "@react-three/drei";
 import { FrontSide, TextureLoader, Vector3, fogExp2 } from "three";
 import { Canvas, useLoader, useFrame } from "@react-three/fiber";
 import { Ocean } from "./Ocean";
+import { asset } from "@/utils/basePath";
 
 /**
  * Componente que carga y clona un modelo 3D.

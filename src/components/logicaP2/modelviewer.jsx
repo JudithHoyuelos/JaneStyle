@@ -4,6 +4,7 @@ import { OrbitControls, Html, Environment } from "@react-three/drei";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { useLoader } from "@react-three/fiber";
 import { SkyComponent } from "../SceneComp";
+import { asset } from "@/utils/basePath";
 
 /**
  * Funcion para cargar el modelo desde la url que se le pasa.
