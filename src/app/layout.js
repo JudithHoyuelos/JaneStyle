@@ -9,9 +9,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" style={{
-      '--asset-prefix': process.env.NEXT_PUBLIC_ASSET_PREFIX || '/',
-    }}>
+    <html lang="en">
       <head>
         <link rel="icon" href={asset('img/logos/JS (BLANCO).png')} />
       </head>

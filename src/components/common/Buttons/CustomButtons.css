@@ -1,7 +1,7 @@
 .custom-button {
   width: 80px;
   height: 80px;
-  background-image: url('var(--asset-prefix)img/background-arrow.svg');
+  background-image: url('/img/background-arrow.svg');
   background-size: 100%;
   background-position: center;
   border-radius: 100%;
