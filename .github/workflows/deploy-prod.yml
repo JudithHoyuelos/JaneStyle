@@ -27,7 +27,9 @@ jobs:
           NEXT_PUBLIC_ENV: prod
 
       - name: Deploy PROD
+        if: ${{ !contains(github.ref_name, 'beta') }}
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
+          force_orphan: true
