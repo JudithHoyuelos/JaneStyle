@@ -4,8 +4,8 @@ import { asset } from '@/utils/basePath';
 const FooterLinks = ({ isSidebarhmOpen }) => {
   return (
     <div
-      className="fixed left-1/2 transform -translate-x-1/2 z-40 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl"
-      style={{ bottom: '5%' }} 
+      className="fixed left-1/2 transform -translate-x-1/2 bottom-4 z-40 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl"
+      style={{ bottom: '0%' }} 
     >
       {/* Redes sociales */}
       <div
@@ -30,7 +30,7 @@ const FooterLinks = ({ isSidebarhmOpen }) => {
             src={asset("img/icons/icons8-insta.svg")}
             alt="Instagram"
           />
-          <SocialIcon
+          {/* <SocialIcon
             href="https://www.facebook.com/people/Alvearium/100083367819508/"
             src={asset("img/icons/icons8-facebook.svg")}
             alt="Facebook"
@@ -39,7 +39,7 @@ const FooterLinks = ({ isSidebarhmOpen }) => {
             href="https://x.com/alvearium__"
             src={asset("img/icons/6627-x-logo.png")}
             alt="Twitter"
-          />
+          /> */}
         </div>
       </div>
 
@@ -58,12 +58,12 @@ const FooterLinks = ({ isSidebarhmOpen }) => {
 const SocialIcon = ({ href, src, alt }) => (
   <a
     href={href}
-    className="flex-1 mx-1 sm:mx-2"
+    className="mx-0.5"
     target="_blank"
     rel="noopener noreferrer"
     style={{ pointerEvents: 'auto' }}
   >
-    <div className="w-10 h-10 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14 xl:w-16 xl:h-16">
+    <div className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-16 xl:h-16">
       <img
         src={src}
         alt={alt}

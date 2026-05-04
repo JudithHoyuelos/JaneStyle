@@ -11,7 +11,7 @@ const VideoBackground = () => {
                 muted
                 playsInline
             >
-                <source src={asset("videos/Natural-comprimido.mp4")} type="video/mp4" />
+                <source src={asset("videos/ANIMACION JANESTYLE fondo nubes.mp4")} type="video/mp4" />
                 Tu navegador no soporta video HTML5
             </video>
 
