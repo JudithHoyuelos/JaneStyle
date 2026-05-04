@@ -11,7 +11,6 @@ import { usePortalHandlers } from "@/helpers/landing/usePortalHandlers";
 import NavBarNuevo from "@/components/NavbarNuevo/NavbarNuevo";
 import VideoBackground from "@/components/videoLanding/VideoBackground";
 import { useSidebarLanding } from "@/components/NavbarLanding/SidebarContextLandig";
-import FooterLinks from "@/components/landing/FooterLinks";
 import withProgressLoader from "@/components/common/Loader/withProgressLoader";
 
 function Portales() {
@@ -131,9 +130,6 @@ function Portales() {
         </SidebarLanding>
       </div> */}
       <VideoBackground/>
-      <div>
-        <FooterLinks isSidebarhmOpen={isSidebarhmOpen} />
-      </div>
       <NavBarNuevo />
       
       <Sonido isMenuOpen={isSidebarhmOpen || isSidebarCOpen} />
