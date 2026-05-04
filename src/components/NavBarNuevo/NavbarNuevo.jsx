@@ -9,7 +9,7 @@ import InicioLogoNuevo from "@/components/logoNuevo/logo";
  *
  * @returns {div} - El Navbar
  */
-const NavBarNuevo = () => {
+const NavbarNuevo = () => {
 
     const router = useRouter();
     
@@ -33,4 +33,4 @@ const NavBarNuevo = () => {
 
 }
 
-export default NavBarNuevo;
+export default NavbarNuevo;
