@@ -8,7 +8,7 @@ import CustomButtons from "@/components/common/Buttons/CustomButtons.jsx";
 import { PortalesContent } from "@/helpers/landing/PortalesContent";
 import { usePortalHandlers } from "@/helpers/landing/usePortalHandlers";
 // import MenuLanding from "@/components/text/MenuLanding";
-import NavBarNuevo from "@/components/NavbarNuevo/NavbarNuevo";
+import NavBarNuevo from "@/components/NavbarNuevos/NavbarNuevo";
 import VideoBackground from "@/components/videoLanding/VideoBackground";
 import { useSidebarLanding } from "@/components/NavbarLanding/SidebarContextLandig";
 import withProgressLoader from "@/components/common/Loader/withProgressLoader";
