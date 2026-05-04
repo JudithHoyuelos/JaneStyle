@@ -28,7 +28,7 @@ const InicioLogoNuevo = ({  }) => {
       <Link href="/">
         <img
           onClick={handleClick}
-          src={asset("img/logos/JANESTYLE (NEGRO).png")}
+          src={asset("img/logos/JS (BLANCO).png")}
           alt="Logo"
           // style={{ width: "33rem", marginTop: "-1rem" }}
           className="logon"
