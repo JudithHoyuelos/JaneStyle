@@ -1,0 +1,22 @@
+.video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    object-fit: cover; /* evita deformación */
+    z-index: -1; /* detrás de todo */
+    pointer-events: none;
+}
+
+/* contenido encima del video */
+/* .overlay {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    top: 40%;
+} */

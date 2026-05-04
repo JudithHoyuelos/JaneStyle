@@ -1,14 +1,15 @@
 "use client";
 import React, { useRef, useEffect, useState } from "react";
 import { CustomCanvas } from "../components/SceneComp";
-import SidebarLanding from "@/components/logicaP2/sidebarhor.jsx";
+// import SidebarLanding from "@/components/logicaP2/sidebarhor.jsx";
 import CameraController from "@/components/logicaP2/cameracontroller.jsx";
 import Sonido from "@/components/sonido/Sonido.jsx";
 import CustomButtons from "@/components/common/Buttons/CustomButtons.jsx";
 import { PortalesContent } from "@/helpers/landing/PortalesContent";
 import { usePortalHandlers } from "@/helpers/landing/usePortalHandlers";
-import MenuLanding from "@/components/text/MenuLanding";
-import NavBarLanding from "@/components/NavbarLanding/NavbarLanding";
+// import MenuLanding from "@/components/text/MenuLanding";
+import NavBarNuevo from "@/components/NavbarNuevo/NavbarNuevo";
+import VideoBackground from "@/components/videoLanding/VideoBackground";
 import { useSidebarLanding } from "@/components/NavbarLanding/SidebarContextLandig";
 import FooterLinks from "@/components/landing/FooterLinks";
 import withProgressLoader from "@/components/common/Loader/withProgressLoader";
@@ -78,7 +79,7 @@ function Portales() {
 
   return (
     <>
-      <div style={{ position: "relative" }}>
+      {/* <div style={{ position: "relative" }}>
         <CustomCanvas
           camera={{ position: [0, 2, 2.9], fov: 50, rotation: [0, 0, 0] }}
           style={{ width: "100vw", height: "100vh" }}
@@ -114,11 +115,13 @@ function Portales() {
           isMenuOpen={isSidebarhmOpen || isSidebarCOpen}
         />
 
+        <VideoBackground/>
+
         <div>
           <FooterLinks isSidebarhmOpen={isSidebarhmOpen} />
         </div>
 
-        <NavBarLanding isSidebarhmOpen={isSidebarhmOpen} />
+        <NavBarNuevo />
         <SidebarLanding
           isOpen={isSidebarhmOpen}
           className="sidebarhm"
@@ -126,10 +129,17 @@ function Portales() {
         >
           <MenuLanding />
         </SidebarLanding>
+      </div> */}
+      <VideoBackground/>
+      <div>
+        <FooterLinks isSidebarhmOpen={isSidebarhmOpen} />
       </div>
+      <NavBarNuevo />
+      
       <Sonido isMenuOpen={isSidebarhmOpen || isSidebarCOpen} />
     </>
   );
 }
 
-export default withProgressLoader(Portales);
+export default Portales;
+// export default withProgressLoader(Portales);
