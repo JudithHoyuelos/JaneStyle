@@ -1,18 +1,20 @@
+import { asset } from "@/utils/basePath";
+
 export const pdfFiles = [
     {
         name: "CUENTO",
-        file: "/pdfs/CUENTO.pdf",
+        file: asset("/pdfs/CUENTO.pdf"),
     },
     {
         name: "JANET'S WONDERLAND",
-        file: "/pdfs/JANET'S WONDERLAND.pdf",
+        file: asset("/pdfs/JANET'S WONDERLAND.pdf"),
     },
     {
         name: "MY WEB",
-        file: "/pdfs/MY WEB.pdf",
+        file: asset("/pdfs/MY WEB.pdf"),
     },
     {
         name: "POEMA VISUAL",
-        file: "/pdfs/POEMA VISUAL.pdf",
+        file: asset("/pdfs/POEMA VISUAL.pdf"),
     },
 ];

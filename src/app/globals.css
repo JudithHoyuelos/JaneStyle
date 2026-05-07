@@ -24,25 +24,25 @@ body {
   display: none;
 }
 
-@layer components {
+/* @layer components {
   ::-webkit-scrollbar {
     width: 8px;
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: #7B1AD8;
+    background-color: #ff01f7;
     border-radius: 9999px;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background-color: #925BC0;
+    background-color: #00fbff;
   }
 
   ::-webkit-scrollbar-track {
     background: #F7FAFC;
     border-radius: 9999px;
   }
-}
+} */
 
 /***************************************** Styles Letters *****************************************/
 
