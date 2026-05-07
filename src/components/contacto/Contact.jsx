@@ -54,22 +54,22 @@ const Contact = () => {
         <div className="info-block">
             <h2>Contacto</h2>
             <p>
-              Si prefieres en vez de rellenar el formulario para enviar el email, también puedes contactarme directamente por teléfono o email.
+              Si prefieres en vez de rellenar el formulario para enviar el email, también puedes contactarme directamente por teléfono o email haciendo click en donde pone el email.
             </p>
         </div>
 
         <div className="info-block">
-          <h3>📞 Teléfono</h3>
-          <a href="tel:+34600123456">+34 600 123 456</a>
+          <h3>Teléfono</h3>
+          <a href="tel:+34600123456">+34 658 071 224</a>
         </div>
 
         <div className="info-block">
-          <h3>📧 Email</h3>
-          <a href="mailto:contacto@tudominio.com">Email</a>
+          <h3>Email</h3>
+          <a href="mailto:janestyle.audiovisuals@gmail.com">Enviar email a janestyle.audiovisuals@gmail.com</a>
         </div>
 
         <div className="info-block">
-          <h3>🕒 Horario</h3>
+          <h3>Horario</h3>
           <p>Lunes - Viernes: 9:00 - 18:00</p>
         </div>
 
