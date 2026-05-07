@@ -18,8 +18,7 @@ const SplitSection = () => {
 
         <div className="split-text">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor quibusdam itaque fugit ipsa deleniti suscipit quaerat ducimus temporibus accusantium delectus, maxime iure molestias dicta reprehenderit nihil exercitationem esse incidunt consequuntur!
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem debitis quod quos ab optio magni suscipit quas laborum, facere, iste dolorem aliquam, deleniti reprehenderit doloribus voluptates ut sed tempora harum.
+          Hello, I introduce myself, I am Janet or Any (artistic name) and now I will explain a little about myself: I have always been interested in the arts in general and experimenting with them and that makes me think and see dierently. I really like working with concepts that impact the public and leave their mark, I am a very perfectionist so whenever I deliver something I try to make it as good as possible even if I have to put in more hours. Graphic design means that all my ideas can create life digitally and physically. The photo, however, allows me to bring pieces of the world to be able to digitize them and do from there what I see fit in each case.
           </p>
         </div>
 
