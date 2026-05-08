@@ -32,11 +32,10 @@ const PdfCarousel = () => {
               onClick={() => openPdf(pdf.file)}
             >
 
-              <div className="pdf-icon">
-                📄
-              </div>
-
-              <p>{pdf.name}</p>
+              <img
+                src={pdf.preview}
+                alt={pdf.name}
+              />
 
             </div>
           );

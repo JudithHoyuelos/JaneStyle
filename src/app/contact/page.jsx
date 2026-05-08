@@ -15,7 +15,7 @@ function P4Contacto() {
       <Contact />
       <NavbarNuevo />
       <FooterLinks />
-      <Sonido />
+      {/* <Sonido /> */}
     </>
   );
 }

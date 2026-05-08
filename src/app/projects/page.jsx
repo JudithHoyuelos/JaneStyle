@@ -17,7 +17,7 @@ function P5Proyectos() {
     <Carousel />
     <PdfCarousel />
     <VideoCarousel />
-    <Sonido /> 
+    {/* <Sonido />  */}
     </>
   );
 }

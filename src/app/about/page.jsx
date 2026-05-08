@@ -14,7 +14,7 @@ function P6SobreMi() {
     <BackgroundImage />
     <NavbarNuevo />
     <SplitSection />
-    <Sonido /> 
+    {/* <Sonido />  */}
     </>
   );
 }

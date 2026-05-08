@@ -132,7 +132,7 @@ function Portales() {
       <VideoBackground/>
       <NavBarNuevo />
       
-      <Sonido isMenuOpen={isSidebarhmOpen || isSidebarCOpen} />
+      {/* <Sonido isMenuOpen={isSidebarhmOpen || isSidebarCOpen} /> */}
     </>
   );
 }
