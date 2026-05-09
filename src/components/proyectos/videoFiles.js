@@ -5,14 +5,22 @@ export const videoFiles = [
     },
     {
         title: "Video 2",
-        id: "_TuRNrbCVOw",
+        id: "vnFwjpKuZxo",
     },
     {
         title: "Video 3",
-        id: "_TuRNrbCVOw",
+        id: "IkLpvq1jmiI",
     },
     {
-        title: "Video 3",
-        id: "_TuRNrbCVOw",
+        title: "Video 4",
+        id: "rfoHE42GVLI",
+    },
+    {
+        title: "Video 5",
+        id: "ZKcW64jdGLM",
+    },
+    {
+        title: "Video 6",
+        id: "kmogmqc6TE0",
     },
 ];

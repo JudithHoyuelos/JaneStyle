@@ -22,7 +22,12 @@ const VideoCarousel = () => {
   return (
     <div className="video-wrapper">
 
-      <div className="video-track">
+      <div
+        className="video-track"
+        style={{
+          transform: `translateX(-${index * 42}%)`,
+        }}
+      >
 
         {videoFiles.map((video, i) => {
           const isActive = i === index;
